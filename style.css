@@ -265,6 +265,10 @@ section{
         font-size: 3em;
         margin-bottom: 50px;
     }
+    .content .uno{
+        width: 600px;
+        height: 450px;
+    }
     .content .dos
     {
         width: 550px;
@@ -311,5 +315,10 @@ section{
         height: 100%;
         object-fit: cover;
         transition: transform 0.3s ease-in-out;
+    }
+    .image img {
+        width: 100%;
+        height: auto;
+        max-width: 50%;
     }
 }
